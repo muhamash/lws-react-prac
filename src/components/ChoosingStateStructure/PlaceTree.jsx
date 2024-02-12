@@ -1,6 +1,4 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
-
 const PlaceTree = ( { id, placesById, parentId, onComplete } ) =>
 {
     const place = placesById[ id ];

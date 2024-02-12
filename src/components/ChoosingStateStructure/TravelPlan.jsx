@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import PlaceTree from './PlaceTree';
 import { initialTravelPlan } from './Places';
 

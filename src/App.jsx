@@ -1,10 +1,10 @@
 import './App.css'
-import TravelPlan from './components/AvoidDeeplyNestedState/TravelPlan.jsx'
+import TravelPlanCH from './components/StateStructure/TravelPlaneCh'
 
 function App() {
   return (
     <div>
-      <TravelPlan/>
+      <TravelPlanCH/>
     </div>
   )
 }
