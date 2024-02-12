@@ -1,10 +1,10 @@
 import './App.css'
-import TravelPlanCH from './components/StateStructure/TravelPlaneCh'
+import Main from './components/StateStructureMain/FixedStateHighlighting/Main'
 
 function App() {
   return (
     <div>
-      <TravelPlanCH/>
+      <Main/>
     </div>
   )
 }
