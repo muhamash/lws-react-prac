@@ -1,10 +1,10 @@
 import './App.css'
-import FilterTex from './components/ShareState/FilterText/FilterTex'
+import Main from './components/PreserveState/ExHints/Main.jsx'
 
 function App() {
   return (
     <div>
-      <FilterTex/>
+      <Main/>
     </div>
   )
 }
