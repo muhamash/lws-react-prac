@@ -1,10 +1,10 @@
 import './App.css'
-import Main from './components/StateStructureMain/FixedStateHighlighting/Main'
+import ToggleSateCount from './components/StateStructureMain/ToggledStateCount/ToggleSateCount'
 
 function App() {
   return (
     <div>
-      <Main/>
+      <ToggleSateCount/>
     </div>
   )
 }
