@@ -1,10 +1,10 @@
 import './App.css'
-import ToggleSateCount from './components/StateStructureMain/ToggledStateCount/ToggleSateCount'
+import FilterTex from './components/ShareState/FilterText/FilterTex'
 
 function App() {
   return (
     <div>
-      <ToggleSateCount/>
+      <FilterTex/>
     </div>
   )
 }
