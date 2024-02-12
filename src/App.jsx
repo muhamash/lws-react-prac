@@ -1,10 +1,10 @@
 import './App.css'
-import Main from './components/PreserveState/ExHints/Main.jsx'
+import Reversed from './components/PreserveState/ExSwap/Reversed.jsx'
 
 function App() {
   return (
     <div>
-      <Main/>
+      <Reversed/>
     </div>
   )
 }
