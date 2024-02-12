@@ -30,21 +30,21 @@ export default function MailClient() {
     <>
       <h2>Inbox</h2>
       <ul>
-        {letters.map(letter => (
+        { letters.map( letter => (
           <Letter
-            key={letter.id}
-            letter={letter}
+            key={ letter.id }
+            letter={ letter }
             isSelected={
               // TODO: allow multiple selection
-              selectedId.toggle.includes(letter.id)
+              selectedId.toggle.includes( letter.id )
             }
-            onToggle={handleToggle}
+            onToggle={ handleToggle }
           />
-        ))}
+        ) ) }
         <hr />
         <p>
           <b>
-            You selected {selectedId.count} letters
+            You selected { selectedId.count } letters
           </b>
         </p>
       </ul>
