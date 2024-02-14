@@ -1,10 +1,10 @@
 import './App.css'
-import Reversed from './components/PreserveState/ExSwap/Reversed.jsx'
+import Parent from './components/ExtractindIntoReducer/BeforeReduce/TaskList'
 
 function App() {
   return (
     <div>
-      <Reversed/>
+      <Parent/>
     </div>
   )
 }
